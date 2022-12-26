@@ -1,0 +1,59 @@
+.wholepage {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color:#61876E;
+    color: #333;
+}
+table,th,tr,td {border:black 1px solid
+}
+th,tr,td {
+    padding: 10px;
+}
+
+.bold {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.heading {
+    font-style: italic;
+}
+
+.li {
+    list-style-type: square;
+
+}
+
+.link {
+    color:#00f ;
+    text-decoration: underline;
+}
+
+.link:hover {
+    text-decoration: none;
+}
+
+.link:visited {
+    color: #005;
+    text-decoration: underline;
+}
+
+.border {
+    border-bottom: rgb(82, 79, 79) dotted 3px;
+    
+}
+
+.img {
+    border: solid green 2px;
+    padding: 10px;
+}
+
+.background {
+ 
+    background-color: #CCD6A6;
+}
+
+.table {
+    background-color: #A6BB8D;
+}
