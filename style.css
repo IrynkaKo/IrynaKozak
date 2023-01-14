@@ -56,7 +56,7 @@ th,tr,td {
 
 .table {
     background-color: #A6BB8D;
-    width: 100%;
+    
 }
 
 .parent {
@@ -68,5 +68,9 @@ th,tr,td {
     width: 100px;
     height: 100px;
     margin-left: 800px;
+}
+
+.block {
+    display: block;
 }
 
