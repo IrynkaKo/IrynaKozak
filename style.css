@@ -56,3 +56,9 @@ select {
 input[type="email"] {
     margin-left: 34px;
 }
+
+.parent1 {
+    display: flex;
+    justify-content: center;
+}
+
