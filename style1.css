@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(233, 206, 173);
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+.parent {
+    display: flex;
+    justify-content: center;
+}
+
+ .child {
+    box-sizing: border-box;
+    width: 1024px;
+}
+
+.tab ,tr,td {
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+
+
+.submit {
+    background-color: rgb(93, 75, 75);
+    border-radius: 50px;
+    color: aliceblue;
+    cursor:pointer;
+    padding: 4px;
+    margin-top: 5px;
+    width: 80px;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(11, 11, 133);
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline-style: double;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+input[type="email"],
+textarea,
+select {
+    background-color: rgb(251, 238, 222);
+    border-radius: 15px;
+    padding: 6px;
+}
+
+input[type="email"] {
+    margin-left: 34px;
+}
+
+.parent1 {
+    display: flex;
+    justify-content: center;
+}
