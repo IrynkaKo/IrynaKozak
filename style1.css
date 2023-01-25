@@ -1,5 +1,5 @@
-body {
-    background-color: rgb(233, 206, 173);
+/* body {
+    background-color: rgba(12, 118, 140, 0.612);
     font-family: Arial, Helvetica, sans-serif;
  }
  
@@ -24,7 +24,7 @@ body {
 .submit {
     background-color: rgb(93, 75, 75);
     border-radius: 50px;
-    color: aliceblue;
+    color: rgb(147, 195, 203);
     cursor:pointer;
     padding: 4px;
     margin-top: 5px;
@@ -48,7 +48,7 @@ input:invalid {
 input[type="email"],
 textarea,
 select {
-    background-color: rgb(251, 238, 222);
+    background-color: rgb(189, 236, 249);
     border-radius: 15px;
     padding: 6px;
 }
@@ -60,4 +60,80 @@ input[type="email"] {
 .parent1 {
     display: flex;
     justify-content: center;
+} */
+
+body {
+    background-color: rgba(12, 118, 140, 0.612);
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+.parent {
+    position: relative;
+}
+
+ .child {
+    box-sizing: border-box;
+    width: 1024px;
+    background-color: rgba(85, 177, 177, 0.777);
+    border: rgb(36, 147, 134) solid 1px ;
+    position: sticky;
+    top: 50%;
+    left: 50%;
+}
+
+.tab ,tr,td {
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+
+
+.submit {
+    background-color: rgb(93, 75, 75);
+    border-radius: 50px;
+    color: rgb(147, 195, 203);
+    cursor:pointer;
+    padding: 4px;
+    margin-top: 5px;
+    width: 80px;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(11, 11, 133);
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline-style: double;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+input[type="email"],
+textarea,
+select {
+    background-color: rgb(189, 236, 249);
+    border-radius: 10px;
+    padding: 6px;
+
+}
+
+input[type="email"] {
+    margin-left: 34px;
+}
+
+.parent1 {
+    position: relative;
+}
+
+.child1 {
+    position: sticky;
+    top: 50%;
+    left: 50%;
+    box-sizing: border-box;
+    width: 1024px;
 }
