@@ -1,12 +1,12 @@
 .my-theme {
     /* colors */
-   --color-backgroung-primary :#d78a76;
-   --color-backgroung-secondary :#f7d6e0;
-   --text-main-color :#555b6e;
+   --color-backgroung-primary : #829cbc;
+   --color-backgroung-secondary :#f2f4f3;
+   --text-main-color :#1d3461;
    --text-secondary-color :#706993;
    --text-additional-color :#4f5d75;
   
-  
+   
    /* sizes */
    --border-main-width :3px;
    --padding-main :45px;
@@ -71,3 +71,16 @@
       font-weight:bolder;
       font-family: var(--font-family-main) ;
   }
+
+  @media all and (max-width: 550px){
+   
+   .parent {
+    display: flex;
+    flex-direction: column;
+   }
+   img {
+    width: 100%;
+   }
+
+   
+}
