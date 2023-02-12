@@ -37,6 +37,8 @@
       flex: 1;
       border-right: var(--border-main-width) solid;
       line-height: var(--font-weight-main);
+      z-index: 1;
+      box-shadow: rgba(0, 0, 0, 0.15) 5px 1.95px 2.6px;
       
       
 
@@ -50,12 +52,12 @@
       flex: 2;
       padding: var(--padding-main);
       font-family: var(--font-family-main);
-      box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3
       
   }
   
   img{
       width: 100%;
+      
   }
 
   img:hover {
