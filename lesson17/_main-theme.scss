@@ -1,0 +1,71 @@
+@mixin animation1 {
+  animation: left linear 5s 0s alternate-reverse;
+} 
+
+@mixin animation2 {
+  animation: right linear 5s 0.5s alternate-reverse;
+}
+
+
+$color-backgroung-primary : #829cbc;
+$color-backgroung-secondary :#f2f4f3;
+$text-main-color :#1d3461;
+$text-secondary-color :#706993;
+$text-additional-color :#4f5d75;
+
+$border-main-width :1px;
+$padding-main :45px;
+$padding-secondary :35px;
+$margin-main :45px;
+$main-line-height :6px;
+$border-radius-main :65px;
+$font-weight-main :bolder;
+$height-main :6px;
+$margin-zero :0;
+
+$font-family-main :Arial, Helvetica, sans-serif;
+$font-family-heading :Arial, Verdana, sans-serif;
+
+
+.parent {
+    display: flex;
+    margin: 0;
+    
+}
+
+.left {
+    flex-wrap: wrap;
+    color: $text-main-color;
+    font-family: $font-family-main;
+    background-color: $color-backgroung-primary;
+    flex: 1;
+    border-right: $border-main-width solid;
+    line-height: $font-weight-main;
+    position: relative;
+    @include animation1();
+    }
+
+    @keyframes left {
+      0%  { opacity: 1; left:0px; top:-700px;}
+      100%  {opacity: 0; left:0px; top:0px;}
+    }
+
+  
+   
+
+.right {
+    flex-wrap: wrap;
+    background-color: $color-backgroung-secondary;
+    color: $text-secondary-color;
+    flex: 2;
+    padding: $padding-main;
+    font-family: $font-family-main;
+    position: relative;
+    @include animation2();
+    }
+
+   @keyframes right {
+    0%  {opacity: 1; left:0px; top:-700px;}
+    100%  {opacity: 0; left:0px; top:0px;}
+  }      
+
